@@ -1,0 +1,147 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: #712EFF;
+  --secund-color: #AD87FF;
+  --tercer-color: #441B99;
+  --cuarto-color: #281158;
+  --quito-color: #000;
+  --sexto-color: #fff;
+  --septimo-color: #d3ccee7e;
+  --title-color: #313030;
+  --subtitle-color: #868686;
+  --text-color: hsl(230, 12%, 40%);
+  --body-color: hsl(230, 100%, 98%);
+  --container-color: hsl(230, 100%, 97%);
+  --border-color: hsl(230, 25%, 80%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Syne", sans-serif;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: .938rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1023px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 0.75em;
+  margin-top: 0.75em;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+.section{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.section__parrafo{
+  text-align: center;
+}
+
+/* === layou === */
+.bg_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.section__sudtitle{
+    margin: 10px 0;
+}
+
+.main {
+  position: relative;
+}
+
+/* ==== BOTONES ==== */
+.bnt__primary{
+    color: var(--sexto-color);
+    padding: 10px;
+    background-color: var(--first-color);
+    border-radius: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    text-align: center;
+    &:hover{
+      background-color: var(--tercer-color);
+    }
+}
+
+/* .bnt__secund{
+
+}
+
+.section__title{
+
+} */
