@@ -33,7 +33,7 @@
     margin: 10px;
 }
 .home__botones{
-    margin: 0 10px;
+    margin: 0 10px 50px 10px;
 }
 
 /* === circulo decorativo === */
@@ -65,7 +65,8 @@
 .contenedor__proyectos{
     gap: 2rem;
 }
-.proyectos__card{
+
+.general__card{
     background-color: #FCFCFC;
     border-radius: 15px;
     -webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.75);
@@ -82,11 +83,46 @@
     }
 }
 
+/*=============== CLIETES ===============*/
+.contenedor__clientes{
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+.cliente__card{
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+}
+.cliente__info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+.cliente__image{
+    width: 100px;
+}
+
 /*=============== CALL_TO_ACTION ===============*/
 .callAction{
     background: rgb(102,36,244);
     background: linear-gradient(90deg, rgba(102,36,244,1) 0%, rgba(192,167,247,1) 100%);
     color: var(--sexto-color);
+}
+.callAction__title{
+    text-align: start;
+    padding-top: 3rem;
+}
+.contenedor__callAction{
+    margin-top: 1rem;
+}
+.callAction__info{
+    margin-top: 1.2rem;
+}
+.callAction__cardTitle{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
 }
 .info__title{
     font-size: 30px;
@@ -100,7 +136,7 @@
 .info__btn{
     display: flex;
     justify-content: center;
-    margin-top: 1em;
+    margin-top: 0;
 }
 .info__boton{
     background-color: var(--cuarto-color);
@@ -110,6 +146,23 @@
 }
   
 
+/*=============== OTROS_LISTA ===============*/
+.otros__table{
+    width: 100%;
+}
+.otros__tableHead{
+    background-color: var(--secund-color);
+    height: 40px;
+    color: var(--sexto-color);
+}
+.otros__tableBody{
+    text-align: center;
+    tr{
+        width: 100%;
+        height:40px;
+        margin-bottom: 2rem;
+    }
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
@@ -138,25 +191,18 @@
         top: -50px;
     }
 
-    /*=============== SERIVICIOS ===============*/
-    .contenedor__servicios{
-        grid-template-columns:1fr; 
-        gap:2rem;
+    /*=============== PROYECTOS RECIENTES ===============*/
+    .contenedor__proyectos{
+        grid-template-columns: 1fr 1fr;
     }
-    .servicios__card{
-        grid-template-columns:1fr 1fr; 
-        gap: 2rem;
-        align-items: center;
-        grid-template-areas: "col1 col2";
+
+    /*=============== CLIETES ===============*/
+    .contenedor__clientes{
+        grid-template-columns:1fr 1fr;
     }
-    .izquieda {
-        grid-area: col1;
-      }
-      
-      .dereha {
-        grid-area: col2;
-      }
-    
+    .cliente__card{
+        width: 100%;
+    }
 }
 
 
@@ -187,8 +233,15 @@
         }
 
 
-    /*=============== SERVICIOS ===============*/
-
+    /*=============== PROYECTOS RECIENTES ===============*/
+    .contenedor__proyectos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    /*=============== CLIETES ===============*/
+    .contenedor__clientes{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
 
     /*===============  CALL_TO_ACTION  ===============*/
