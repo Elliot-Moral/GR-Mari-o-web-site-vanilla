@@ -1,8 +1,29 @@
 <!DOCTYPE html>
    <html lang="es">
    <head>
+      <!-- Meta Tags para la página de Contacto de GR Mariño -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Contacto - GR Mariño: Contáctanos para Obras Civiles, Remodelaciones y Más">
+      <meta name="description" content="Ponte en contacto con GR Mariño para consultas sobre obras civiles, remodelaciones, pintura, jardinería y otros servicios. Estamos aquí para ayudarte a transformar tus espacios.">
+      <meta name="keywords" content="GR Mariño, contacto, obras civiles, remodelaciones, pintura, jardinería, redes eléctricas, consultas, Villavicencio, Meta, Colombia">
+      <meta name="author" content="GR Mariño">
+      <meta name="robots" content="index, follow">
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.grmariño.com/contacto">
+      <meta property="og:title" content="Contacto - GR Mariño: Contáctanos para Obras Civiles, Remodelaciones y Más">
+      <meta property="og:description" content="¿Tienes alguna pregunta o necesitas una cotización? Contacta a GR Mariño para asesoría en proyectos de obras civiles, remodelaciones y más. Estamos para ayudarte.">
+      <meta property="og:image" content="https://www.grmariño.com/img/contacto.jpg">
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://www.grmariño.com/contacto">
+      <meta property="twitter:title" content="Contacto - GR Mariño: Contáctanos para Obras Civiles, Remodelaciones y Más">
+      <meta property="twitter:description" content="Ponte en contacto con GR Mariño para obtener asesoría personalizada sobre tus proyectos de construcción, remodelación y más. ¡Estamos aquí para hacer realidad tus ideas!">
+      <meta property="twitter:image" content="https://www.grmariño.com/img/contacto.jpg">
+
 
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
@@ -17,58 +38,12 @@
       <link rel="stylesheet" href="assets/css/contacto.css">
       <link rel="stylesheet" href="assets/css/footer.css">
 
-      <title>Gr Mariño - Contacto</title>
+      <title>Contacto - GR Mariño: Ponte en Contacto para Obras Civiles, Aseos Livianos-Gruesos y Remodelaciones Villavicencio</title>
+
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-
-         <nav class="nav container">
-            <div class="nav__logo">
-               <img src="assets/icons/logo.png" alt="">
-            </div>
-
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="home.html" class="nav__link">Inicio</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="nosotros.html" class="nav__link">Nosotros</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="servicios.html" class="nav__link">Servicios</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="proyectos.html" class="nav__link">Proyectos</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="contacto.html" class="nav__link">Contacto</a>
-                 </li>
-               </ul>
-
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__actions">
-
-               <!-- Toggle button -->
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-menu-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__cotizar not__show">
-                <a href="#" class="nav__link bnt_cotizar">Cotizar</a>
-            </div>
-         </nav>
-      </header>      
+      <?php include ("shared/header.php") ?>     
       
       <!--==================== MAIN ====================-->
       <main class="main">
@@ -204,56 +179,7 @@
       </main>
 
       <!--==================== FOOTER ====================-->
-      <footer class="footer">
-
-         <div class="footer__container">
-
-             <div class="footer__contacto">
-                 <h3 class="footer__title" >Contactos</h3>
-                 
-                 <ul class="footer__lista">
-                     <li>Gr mariño</li>
-                     <li>info@grmariño.com</li>
-                     <li>3177935184 - 3144625599</li>                
-                 </ul>
-             </div>
-
-             <br>
-
-             <div class="footer__ubicanos">
-                 <h3 class="footer__title">Nos Encuentras En</h3>
-                 <ul class="footer__lista">
-                     <li>Estamos ubicados en Calle 34b 17 a 03 barrio el milagro via Catama.</li>
-                     <li>Tambien puedes seguirnos en las siguientes.</li>
-                 </ul>
-                 <div class="footer__link">
-                     <span>Redes Sociales</span>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
-                 </div>
-             </div>
-
-             <br>
-
-             <div class="Enlaces__Rapidos">
-                 <h3 class="footer__title">Enlaces</h3>
-                 <ul  class="footer__lista ul_enlaces">
-                     <li><a href="home.html">Home</a></li>
-                     <li><a href="servicios.html">Servicios</a></li>
-                     <li><a href="proyectos.html">Proyectos</a></li>
-                     <li><a href="contacto.html">Contacto</a></li>
-                 </ul>
-             </div>
-
-             <hr class="footer__linea">
-             <br>
-             
-             <p class="footer_copy">&#169; copyright Todos Los Derechos Reservados. 2014 - <span id="yeard_current"></span></p>
-
-         </div>
-
-     </footer>
+      <?php include ("shared/footer.php") ?>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/home.js"></script>

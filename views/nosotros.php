@@ -1,8 +1,30 @@
 <!DOCTYPE html>
    <html lang="es">
    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta Tags para la página Sobre Nosotros de GR Mariño -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Sobre Nosotros - GR Mariño: Líderes en Obras Civiles y Remodelaciones">
+        <meta name="description" content="Con más de 10 años de experiencia, GR Mariño se ha consolidado como una de las mejores empresas de obras civiles, remodelaciones y soluciones integrales en Colombia. Conoce nuestra historia y compromiso con la calidad.">
+        <meta name="keywords" content="GR Mariño, sobre nosotros, obras civiles, remodelaciones, historia, calidad, empresa de construcción, Meta, Villavicencio, Colombia">
+        <meta name="author" content="GR Mariño">
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.grmariño.com/sobre-nosotros">
+        <meta property="og:title" content="Sobre Nosotros - GR Mariño: Líderes en Obras Civiles y Remodelaciones">
+        <meta property="og:description" content="En GR Mariño, nuestra misión es transformar espacios con la más alta calidad. Conoce nuestra trayectoria y cómo hemos logrado más de 80 proyectos exitosos.">
+        <meta property="og:image" content="https://www.grmariño.com/img/sobre-nosotros.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.grmariño.com/sobre-nosotros">
+        <meta property="twitter:title" content="Sobre Nosotros - GR Mariño: Líderes en Obras Civiles y Remodelaciones">
+        <meta property="twitter:description" content="Descubre cómo GR Mariño ha crecido a lo largo de los años para convertirse en una de las empresas más confiables del sector construcción en Colombia.">
+        <meta property="twitter:image" content="https://www.grmariño.com/img/sobre-nosotros.jpg">
+
 
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
@@ -17,58 +39,11 @@
       <link rel="stylesheet" href="assets/css/nosotros.css">
       <link rel="stylesheet" href="assets/css/footer.css">
 
-      <title>Gr Mariño</title>
+      <title>Sobre Nosotros - GR Mariño: Expertos en Construcción, Aseo Livianos - Aseo Gruesos, Remodelaciones</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-
-         <nav class="nav container">
-            <div class="nav__logo">
-               <img src="assets/icons/logo.png" alt="">
-            </div>
-
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="home.html" class="nav__link">Inicio</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="nosotros.html" class="nav__link">Nosotros</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="servicios.html" class="nav__link">Servicios</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="proyectos.html" class="nav__link">Proyectos</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="contacto.html" class="nav__link">Contacto</a>
-                 </li>
-               </ul>
-
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__actions">
-
-               <!-- Toggle button -->
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-menu-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__cotizar not__show">
-                <a href="#" class="nav__link bnt_cotizar">Cotizar</a>
-            </div>
-         </nav>
-      </header>      
+      <?php include ("shared/header.php") ?>     
       
       <!--==================== MAIN ====================-->
       <main class="main">
@@ -78,7 +53,7 @@
             <div class="home_bg">
                 
                <div class="home__image">
-                <img src="assets/img/nosotros/banner_2.webp" alt="Foto de un ingeniero de Gr mariño que esta sonriendo que expresa confiaza y buena vibra">
+                <img src="assets/img/nosotros/banner_2.webp" alt="imagen en donde se ve una cosina, dividida en el termiado final y el diseño en los planos!">
                </div>
 
                <div class="home__info">
@@ -98,7 +73,7 @@
                 <h2 class="section__title">Nuestra Historia</h2>
                <div class="contenedor__about bg_grid">
                   <div class="about__image">
-                    <img src="assets/img/nosotros/sobre_nosotros.jpg" alt="">
+                    <img src="assets/img/nosotros/sobre_nosotros.jpg" alt="imagen donde se ven son trabajadoras de grmariño con exelencia y profesionalismo haciendo aseo liviano">
                   </div>
                   <div class="about__info">
                     <p class="parrafo__section">En 2014, con una pequeña pero firme visión, nació nuestra empresa de construcciones y obras civiles. Al principio, éramos un equipo reducido, pero con una pasión indomable por crear. Desde remodelaciones simples hasta proyectos complejos, cada obra que tomamos se convirtió en una oportunidad para demostrar nuestra habilidad y compromiso. Nos destacamos no solo por la calidad de nuestro trabajo, sino por el estricto cumplimiento de los plazos acordados.</p>
@@ -143,22 +118,22 @@
                <div class="contenedor__clientes bg_grid">
 
                     <div class="card__img">
-                        <img src="assets/img/nosotros/coma.png" alt="">
+                        <img src="assets/img/nosotros/coma.png" alt="logo de colpan empresa en villavidencio">
                     </div>
                     <div class="card__img">
-                        <img src="assets/img/nosotros/vegel.png" alt="">
+                        <img src="assets/img/nosotros/vegel.png" alt="logo de vergel empresa en villavicencio">
                     </div>
                     <div class="card__img">
-                        <img src="assets/img/nosotros/elitef.png" alt="">
+                        <img src="assets/img/nosotros/elitef.png" alt="logo elite juridica empresa en villavicencio">
                     </div>
                     <div class="card__img">
-                        <img src="assets/img/nosotros/panal.png" alt="">
+                        <img src="assets/img/nosotros/panal.png" alt="logo de panal empresa en villavicencio">
                     </div>
                     <div class="card__img">
-                        <img src="assets/img/nosotros/alumillan.png" alt="">
+                        <img src="assets/img/nosotros/alumillan.png" alt="logo de alumillan empresa en villavicencio">
                     </div>
                     <div class="card__img">
-                        <img src="assets/img/nosotros/trasportes.png" alt="">
+                        <img src="assets/img/nosotros/trasportes.png" alt="logo de servimudanzas empresa en villavicencio">
                     </div>
 
                </div>
@@ -180,7 +155,7 @@
                     </div>
 
                     <div class="Compromiso__image">
-                        <img src="assets/img/nosotros/compromiso.jpg" alt="">
+                        <img src="assets/img/nosotros/compromiso.jpg" alt="foto un hombre atractivo de grmariño de espladas revisando planos">
                     </div>
 
                </div>
@@ -202,7 +177,7 @@
                         </div>
                     </div>
                     <div class="callAction__image">
-                        <img src="assets/img/nosotros/action_nosotros.png" alt="">
+                        <img src="assets/img/nosotros/action_nosotros.png" alt="hombre llanado a la accion con planos en mano">
                     </div>
                </div>
             </div>
@@ -213,56 +188,7 @@
       </main>
 
       <!--==================== FOOTER ====================-->
-      <footer class="footer">
-
-        <div class="footer__container">
-
-            <div class="footer__contacto">
-                <h3 class="footer__title" >Contactos</h3>
-                
-                <ul class="footer__lista">
-                    <li>Gr mariño</li>
-                    <li>info@grmariño.com</li>
-                    <li>3177935184 - 3144625599</li>                
-                </ul>
-            </div>
-
-            <br>
-
-            <div class="footer__ubicanos">
-                <h3 class="footer__title">Nos Encuentras En</h3>
-                <ul class="footer__lista">
-                    <li>Estamos ubicados en Calle 34b 17 a 03 barrio el milagro via Catama.</li>
-                    <li>Tambien puedes seguirnos en las siguientes.</li>
-                </ul>
-                <div class="footer__link">
-                    <span>Redes Sociales</span>
-                    <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                    <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                    <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="Enlaces__Rapidos">
-                <h3 class="footer__title">Enlaces</h3>
-                <ul  class="footer__lista ul_enlaces">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-
-            <hr class="footer__linea">
-            <br>
-            
-            <p class="footer_copy">&#169; copyright Todos Los Derechos Reservados. 2014 - <span id="yeard_current"></span></p>
-
-        </div>
-
-    </footer>
+      <?php include ("shared/footer.php") ?>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/home.js"></script>

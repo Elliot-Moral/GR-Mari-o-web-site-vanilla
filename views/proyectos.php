@@ -1,8 +1,29 @@
 <!DOCTYPE html>
    <html lang="es">
    <head>
+      <!-- Meta Tags para la página de Proyectos de GR Mariño -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Proyectos - GR Mariño: Obras Civiles y Remodelaciones Exitosas">
+      <meta name="description" content="Explora los proyectos de GR Mariño: obras civiles, remodelaciones, pintura, jardinería y más. Con más de 80 proyectos completados, nos enorgullecemos de nuestra calidad y cumplimiento.">
+      <meta name="keywords" content="GR Mariño, proyectos, obras civiles, remodelaciones, jardinería, pintura, redes eléctricas, proyectos de construcción, Meta, Villavicencio, Colombia">
+      <meta name="author" content="GR Mariño">
+      <meta name="robots" content="index, follow">
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.grmariño.com/proyectos">
+      <meta property="og:title" content="Proyectos - GR Mariño: Obras Civiles y Remodelaciones Exitosas">
+      <meta property="og:description" content="Conoce algunos de los proyectos más destacados de GR Mariño. Desde grandes obras civiles hasta remodelaciones y jardinería, garantizamos calidad y satisfacción en cada entrega.">
+      <meta property="og:image" content="https://www.grmariño.com/img/proyectos.jpg">
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://www.grmariño.com/proyectos">
+      <meta property="twitter:title" content="Proyectos - GR Mariño: Obras Civiles y Remodelaciones Exitosas">
+      <meta property="twitter:description" content="Explora nuestra galería de proyectos. En GR Mariño, cada obra refleja nuestro compromiso con la calidad y el cumplimiento en la entrega.">
+      <meta property="twitter:image" content="https://www.grmariño.com/img/proyectos.jpg">
+
 
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
@@ -17,58 +38,13 @@
       <link rel="stylesheet" href="assets/css/proyectos.css">
       <link rel="stylesheet" href="assets/css/footer.css">
 
-      <title>Gr Mariño</title>
+      <title>Proyectos - GR Mariño: Obras Civiles Aseo Liviano-Grueso y Remodelaciones en Villavicencio</title>
+
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header" id="header">
+      <?php include ("shared/header.php") ?>     
 
-         <nav class="nav container">
-            <div class="nav__logo">
-               <img src="assets/icons/logo.png" alt="">
-            </div>
-
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="home.html" class="nav__link">Inicio</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="nosotros.html" class="nav__link">Nosotros</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="servicios.html" class="nav__link">Servicios</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="proyectos.html" class="nav__link">Proyectos</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="contacto.html" class="nav__link">Contacto</a>
-                 </li>
-               </ul>
-
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__actions">
-
-               <!-- Toggle button -->
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-menu-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__cotizar not__show">
-                <a href="contacto.html" class="nav__link bnt_cotizar">Cotizar</a>
-            </div>
-         </nav>
-      </header>      
       
       <!--==================== MAIN ====================-->
       <main class="main">
@@ -138,7 +114,7 @@
                         <div class="proyectos__info">
                             <h3>Remodelación Integral de Oficina Corporativa</h3>
                             <p>Ubicación: (Villavicencio, Meta)</p>
-                            <p>Fecha de Finalización: (Julio 2024)</p>
+                            <p>Fecha de Finalización: (Agosto 2024)</p>
                             <p class="parrafo__section">Este proyecto consistió en la remodelación completa de una oficina de 500 m². Se incluyó la instalación de nuevas redes eléctricas, pintura, estuco y acabados de lujo. Cumplimos con los plazos establecidos, superando las expectativas del cliente.</p>
                          </div>
                     </div>
@@ -151,7 +127,7 @@
                      <div class="proyectos__info">
                          <h3>Remodelación Integral de Oficina Corporativa</h3>
                          <p>Ubicación: (Villavicencio, Meta)</p>
-                         <p>Fecha de Finalización: (Julio 2024)</p>
+                         <p>Fecha de Finalización: (Septiembre 2024)</p>
                          <p class="parrafo__section">Este proyecto consistió en la remodelación completa de una oficina de 500 m². Se incluyó la instalación de nuevas redes eléctricas, pintura, estuco y acabados de lujo. Cumplimos con los plazos establecidos, superando las expectativas del cliente.</p>
                       </div>
                  </div>
@@ -177,8 +153,8 @@
                               <img src="assets/img/proyectos/cliente1.png" alt="">
                            </div>
                            <div class="cliente__text">
-                              <p class="cliente__name"><strong>Juan Pérez</strong></p>
-                              <p class="cliente__proyecto"><strong>Proyecto:</strong> (Remodelación de Vivienda)</p>
+                              <p class="cliente__name"><strong>Juan Diaz</strong></p>
+                              <p class="cliente__proyecto"><strong>Proyecto:</strong> (Aseo Gueso y Aseo Livano)</p>
                            </div>
                         </div>
 
@@ -191,16 +167,16 @@
 
                         <div class="cliente__info">
                            <div class="cliente__image">
-                              <img src="assets/img/proyectos/cliente1.png" alt="">
+                              <img src="assets/img/proyectos/cliente2.png" alt="">
                            </div>
                            <div class="cliente__text">
-                              <p class="cliente__name"><strong>Juan Pérez</strong></p>
+                              <p class="cliente__name"><strong>David Medina</strong></p>
                               <p class="cliente__proyecto"><strong>Proyecto:</strong> (Remodelación de Vivienda)</p>
                            </div>
                         </div>
 
                         <div  class="cliente__desc">
-                           <p>El equipo de GR Mariño superó nuestras expectativas. No solo terminaron la remodelación antes del tiempo previsto, sino que el resultado fue exactamente lo que imaginábamos. ¡Altamente recomendados!"</p>
+                           <p>GR Mariño fue increíble en cada etapa de nuestro proyecto. Desde la planificación hasta la ejecución, su atención al detalle y profesionalismo fueron impecables. El resultado final superó nuestras expectativas. ¡Sin duda, volveríamos a contratarlos!</p>
                         </div>
                      </div>
 
@@ -208,16 +184,16 @@
 
                         <div class="cliente__info">
                            <div class="cliente__image">
-                              <img src="assets/img/proyectos/cliente1.png" alt="">
+                              <img src="assets/img/proyectos/cliente3.png" alt="">
                            </div>
                            <div class="cliente__text">
-                              <p class="cliente__name"><strong>Juan Pérez</strong></p>
-                              <p class="cliente__proyecto"><strong>Proyecto:</strong> (Remodelación de Vivienda)</p>
+                              <p class="cliente__name"><strong>Carlos Morales</strong></p>
+                              <p class="cliente__proyecto"><strong>Proyecto:</strong> (Jardinería y Pintura residencial)</p>
                            </div>
                         </div>
 
                         <div  class="cliente__desc">
-                           <p>El equipo de GR Mariño superó nuestras expectativas. No solo terminaron la remodelación antes del tiempo previsto, sino que el resultado fue exactamente lo que imaginábamos. ¡Altamente recomendados!"</p>
+                           <p>Quedamos muy satisfechos con el trabajo de GR Mariño. Cumplieron con los plazos acordados y la calidad del resultado fue excepcional. Su equipo siempre estuvo atento a nuestras necesidades y nos brindaron un excelente servicio. ¡Totalmente recomendados!"</p>
                         </div>
                      </div>
 
@@ -350,56 +326,7 @@
       </main>
 
       <!--==================== FOOTER ====================-->
-      <footer class="footer">
-
-         <div class="footer__container">
-
-             <div class="footer__contacto">
-                 <h3 class="footer__title" >Contactos</h3>
-                 
-                 <ul class="footer__lista">
-                     <li>Gr mariño</li>
-                     <li>info@grmariño.com</li>
-                     <li>3177935184 - 3144625599</li>                
-                 </ul>
-             </div>
-
-             <br>
-
-             <div class="footer__ubicanos">
-                 <h3 class="footer__title">Nos Encuentras En</h3>
-                 <ul class="footer__lista">
-                     <li>Estamos ubicados en Calle 34b 17 a 03 barrio el milagro via Catama.</li>
-                     <li>Tambien puedes seguirnos en las siguientes.</li>
-                 </ul>
-                 <div class="footer__link">
-                     <span>Redes Sociales</span>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
-                 </div>
-             </div>
-
-             <br>
-
-             <div class="Enlaces__Rapidos">
-                 <h3 class="footer__title">Enlaces</h3>
-                 <ul  class="footer__lista ul_enlaces">
-                     <li><a href="home.html">Home</a></li>
-                     <li><a href="servicios.html">Servicios</a></li>
-                     <li><a href="proyectos.html">Proyectos</a></li>
-                     <li><a href="contacto.html">Contacto</a></li>
-                 </ul>
-             </div>
-
-             <hr class="footer__linea">
-             <br>
-             
-             <p class="footer_copy">&#169; copyright Todos Los Derechos Reservados. 2014 - <span id="yeard_current"></span></p>
-
-         </div>
-
-     </footer>
+      <?php include ("shared/footer.php") ?>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/home.js"></script>

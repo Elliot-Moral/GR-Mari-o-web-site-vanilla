@@ -1,8 +1,28 @@
 <!DOCTYPE html>
    <html lang="es">
    <head>
+      <!-- Meta Tags para la página Home de GR Mariño -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="GR Mariño - Obras Civiles, Remodelaciones y Soluciones Integrales">
+      <meta name="description" content="GR Mariño es tu aliado en obras civiles, remodelaciones, pintura, jardinería y más. Con más de 10 años de experiencia, garantizamos calidad y cumplimiento en cada proyecto. Contáctanos para transformar tus espacios.">
+      <meta name="keywords" content="GR Mariño, obras civiles, remodelaciones, pintura, jardinería, redes eléctricas, aseo, proyectos de construcción, Meta, Villavicencio, Colombia">
+      <meta name="author" content="GR Mariño">
+      <meta name="robots" content="index, follow">
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.grmariño.com/">
+      <meta property="og:title" content="GR Mariño - Obras Civiles, Remodelaciones y Soluciones Integrales">
+      <meta property="og:description" content="Descubre nuestros servicios en construcción, remodelaciones y mantenimiento. Más de 80 proyectos exitosos nos avalan.">
+      <meta property="og:image" content="https://www.grmariño.com/img/banner-home.jpg">
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://www.grmariño.com/">
+      <meta property="twitter:title" content="GR Mariño - Obras Civiles, Remodelaciones y Soluciones Integrales">
+      <meta property="twitter:description" content="Transformamos tus ideas en proyectos. Obras civiles, remodelaciones, pintura, jardinería y más.">
+      <meta property="twitter:image" content="https://www.grmariño.com/assets/img/home/banner1.png">
 
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
@@ -17,58 +37,12 @@
       <link rel="stylesheet" href="assets/css/home.css">
       <link rel="stylesheet" href="assets/css/footer.css">
 
-      <title>Gr Mariño</title>
+      <title>GR Mariño - Construcción, Remodelaciones y Obras Civiles en Villavicencio</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-
-         <nav class="nav container">
-            <div class="nav__logo">
-               <img src="assets/icons/logo.png" alt="">
-            </div>
-
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="home.html" class="nav__link">Inicio</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="nosotros.html" class="nav__link">Nosotros</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="servicios.html" class="nav__link">Servicios</a>
-                  </li>
-
-                  <li class="nav__item">
-                     <a href="proyectos.html" class="nav__link">Proyectos</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="contacto.html" class="nav__link">Contacto</a>
-                 </li>
-               </ul>
-
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__actions">
-
-               <!-- Toggle button -->
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-menu-line"></i>
-               </div>
-            </div>
-
-            <div class="nav__cotizar not__show">
-                <a href="contacto.html" class="nav__link bnt_cotizar">Cotizar</a>
-            </div>
-         </nav>
-      </header>      
+      
+      <?php include ("shared/header.php") ?>
       
       <!--==================== MAIN ====================-->
       <main class="main">
@@ -98,7 +72,7 @@
                 <h2 class="section__title">Quienes somos</h2>
                <div class="contenedor__about bg_grid">
                   <div class="about__image">
-                    <img src="assets/img/home/about_img.png" alt="">
+                    <img src="assets/img/home/about_img.png" alt="Hombres trabajadores de grmariño">
                   </div>
                   <div class="about__info">
                     <h3 class="section__sudtitle">Nuestra Empresa Gr Mariño</h3>
@@ -115,33 +89,18 @@
             <div class="container services__content  ">
                <h2 class="services__title">Nuestros Servicios</h2>
                <div class="contenedor__services bg_grid">
+
                   <div class="services__card">
                      <div class="card__img">
-                        <img src="assets/img/home/service_obra.png" alt="">
+                        <img src="assets/img/home/aseo_liviano.png" alt="imagen reprentativa de aseo liviano y aseo grueso">
                      </div>
-                     <h4>Obras civiles</h4>
-                     <p>Construimos con precisión y profesionalismo, garantizando estructuras sólidas y seguras</p>
+                     <h4>Aseo Liviano y Aseo Grueso</h4>
+                     <p>Limpieza profesional para proyectos pequeños o grandes.</p>
                   </div>
 
                   <div class="services__card">
                      <div class="card__img">
-                        <img src="assets/img/home/remodelaciones.png" alt="">
-                     </div>
-                     <h4>Remodelaciones</h4>
-                     <p>Transformamos interiores y exteriores con acabados de alta calidad.</p>
-                  </div>
-
-                  <div class="services__card">
-                     <div class="card__img">
-                        <img src="assets/img/home/pintura.png" alt="">
-                     </div>
-                     <h4>Pintura y Terminados</h4>
-                     <p>Aplicamos pintura de manera profesional para acabados impecables.</p>
-                  </div>
-
-                  <div class="services__card">
-                     <div class="card__img">
-                        <img src="assets/img/home/redes_electricas.png" alt="">
+                        <img src="assets/img/home/redes_electricas.png" alt="imagen reprentativa del servicio de redes electricas">
                      </div>
                      <h4>Redes Eléctricas</h4>
                      <p>Instalación y mantenimiento eléctrico para garantizar seguridad y eficiencia.</p>
@@ -149,18 +108,35 @@
 
                   <div class="services__card">
                      <div class="card__img">
-                        <img src="assets/img/home/aseo_liviano.png" alt="">
+                        <img src="assets/img/home/remodelaciones.png" alt="imagen reprentativa del servicio de remodelaciones civiles y comerciales">
                      </div>
-                     <h4>Aseo Liviano y Aseo Grueso</h4>
-                     <p>Limpieza profesional para proyectos pequeños o grandes.</p>
+                     <h4>Remodelaciones</h4>
+                     <p>Transformamos interiores y exteriores con acabados de alta calidad.</p>
                   </div>
-                  
+
                   <div class="services__card">
                      <div class="card__img">
-                        <img src="assets/img/home/jardineria.png" alt="">
+                        <img src="assets/img/home/pintura.png" alt="imagen reprentativa del servicio de puntura">
+                     </div>
+                     <h4>Pintura y Terminados</h4>
+                     <p>Aplicamos pintura de manera profesional para acabados impecables.</p>
+                  </div>
+
+            
+                  <div class="services__card">
+                     <div class="card__img">
+                        <img src="assets/img/home/jardineria.png" alt="imagen reprentativa del servicio de jardineria">
                      </div>
                      <h4>Jardinería y Paisajismo</h4>
                      <p>Descubre más sobre nuestros servicios</p>
+                  </div>
+
+                  <div class="services__card">
+                     <div class="card__img">
+                        <img src="assets/img/home/service_obra.png" alt="imagen reprentativa del servicio de obras civiles y contrucciones">
+                     </div>
+                     <h4>Obras civiles</h4>
+                     <p>Construimos con precisión y profesionalismo, garantizando estructuras sólidas y seguras, hacenos estudios he ingeneria</p>
                   </div>
 
                </div>
@@ -177,19 +153,19 @@
                <div class="proyectos__info bg_grid">
                   <div class="proyectos_card">
                      <div class="proyectos_img">
-                        <img src="assets/icons/proyectos.png" alt="">
+                        <img src="assets/icons/proyectos.png" alt="representacion de proyectos">
                      </div>
                      <h3 class="proyectos_desc">Más de 80 proyectos finalizados</h3>
                   </div>
                   <div class="proyectos_card">
                      <div class="proyectos_img">
-                        <img src="assets/icons/reloj.png" alt="">
+                        <img src="assets/icons/reloj.png" alt="representacion de nuestra esperiencia">
                      </div>
                      <h3 class="proyectos_desc">10 Años de experiencia</h3>
                   </div>
                   <div class="proyectos_card">
                      <div class="proyectos_img">
-                        <img src="assets/icons/ubicacion.png" alt="">
+                        <img src="assets/icons/ubicacion.png" alt="representacion de que somos entre los mejores del sector">
                      </div>
                      <h3 class="proyectos_desc">Estamos entre los mejores en los llanos</h3>
                   </div>
@@ -203,7 +179,7 @@
                   </div>
                   
                   <div class="callAction__img">
-                     <img src="assets/img/home/callAction.png" alt="">
+                     <img src="assets/img/home/callAction.png" alt="imagen de un ingeniero de grmariño que llama a la accion">
                   </div>
                </div>
             </div>
@@ -220,12 +196,12 @@
                      <p>Excelente servicio, han satisfecho mis necesidades, muy y organizados, los recomiendo a 100%. </p>
                      <div class="testimonial__avatar">
                         <div class="testimonial__img" >
-                           <img src="assets/img/home/avatar1.png" alt="">
+                           <img src="assets/img/home/avatar1.png" alt="cliente de grmariño">
                         </div>
                         <div class="avata__info">
                            <p><strong>Carlos Zalazar</strong></p>
                            <div class="avatar__text">
-                              <span><img class="span__img" src="assets/icons/X.png" alt=""></span>
+                              <span><img class="span__img" src="assets/icons/X.png" alt="logo de la red social X de elom"></span>
                               <span>@Carl19sd</span>
                            </div>
                         </div>
@@ -236,12 +212,12 @@
                      <p>Nos recomendaron esta agencia y estamos completamente contentos por el trabajo que han hencho, nos han dejado resultados satisfactorios, los tendrémos en cuenta para sus servicios presentados.</p>
                      <div class="testimonial__avatar">
                         <div class="testimonial__img" >
-                           <img src="assets/img/home/avatar2.png" alt="">
+                           <img src="assets/img/home/avatar2.png" alt="cliente de grmariño">
                         </div>
                         <div class="avata__info">
                            <p><strong>Carlos Zalazar</strong></p>
                            <div class="avatar__text">
-                              <span><img class="span__img" src="assets/icons/X.png" alt=""></span>
+                              <span><img class="span__img" src="assets/icons/X.png" alt="logo de la red social X de elom""></span>
                               <span>@Carl19sd</span>
                            </div>
                         </div>
@@ -251,12 +227,12 @@
                      <p>Sin duda un equipo comprometido, han sabido llevar mis ideas en la construcción de mi hogar. Excelente complimiento en las fechas establecidas.</p>
                      <div class="testimonial__avatar">
                         <div class="testimonial__img" >
-                           <img src="assets/img/home/avatar3.png" alt="">
+                           <img src="assets/img/home/avatar3.png" alt="cliente de grmariño">
                         </div>
                         <div class="avata__info">
                            <p><strong>Carlos Zalazar</strong></p>
                            <div class="avatar__text">
-                              <span><img class="span__img" src="assets/icons/X.png" alt=""></span>
+                              <span><img class="span__img" src="assets/icons/X.png" alt="logo de la red social X de elom""></span>
                               <span>@Carl19sd</span>
                            </div>
                         </div>
@@ -271,56 +247,8 @@
       </main>
 
       <!--==================== FOOTER ====================-->
-      <footer class="footer">
+      <?php include ("shared/footer.php") ?>
 
-         <div class="footer__container">
-
-             <div class="footer__contacto">
-                 <h3 class="footer__title" >Contactos</h3>
-                 
-                 <ul class="footer__lista">
-                     <li>Gr mariño</li>
-                     <li>info@grmariño.com</li>
-                     <li>3177935184 - 3144625599</li>                
-                 </ul>
-             </div>
-
-             <br>
-
-             <div class="footer__ubicanos">
-                 <h3 class="footer__title">Nos Encuentras En</h3>
-                 <ul class="footer__lista">
-                     <li>Estamos ubicados en Calle 34b 17 a 03 barrio el milagro via Catama.</li>
-                     <li>Tambien puedes seguirnos en las siguientes.</li>
-                 </ul>
-                 <div class="footer__link">
-                     <span>Redes Sociales</span>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                     <a target="_blank" href="#" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
-                 </div>
-             </div>
-
-             <br>
-
-             <div class="Enlaces__Rapidos">
-                 <h3 class="footer__title">Enlaces</h3>
-                 <ul  class="footer__lista ul_enlaces">
-                     <li><a href="home.html">Home</a></li>
-                     <li><a href="servicios.html">Servicios</a></li>
-                     <li><a href="proyectos.html">Proyectos</a></li>
-                     <li><a href="contacto.html">Contacto</a></li>
-                 </ul>
-             </div>
-
-             <hr class="footer__linea">
-             <br>
-             
-             <p class="footer_copy">&#169; copyright Todos Los Derechos Reservados. 2014 - <span id="yeard_current"></span></p>
-
-         </div>
-
-     </footer>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/home.js"></script>
